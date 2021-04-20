@@ -6,5 +6,5 @@ require 'irb'
 def reload!
 	load './config/environment'
 end
-# MusicLibraryController.new.call
+MusicLibraryController.new.call
 IRB.start
